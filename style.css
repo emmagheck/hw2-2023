@@ -1,5 +1,5 @@
 body {
-    font-family: Arial, Verdana;
+    font-family: Arial, Helvetica, sans-serif, Verdana, Geneva, Tahoma, sans-serif;
     color: #FFFFFF;
     background-color: #000000;
     margin-top: 20px;
@@ -45,15 +45,19 @@ div {
 div.introduction {
     border-radius: 15px;
     margin-top: 15px;
+    margin-right: 0px;
+    margin-bottom: 0px;
+    margin-left: 0px;
     line-height: 200%;
 }
 
 div.red {
     background-color: #FD0000;
     text-align: right;
-    margin-bottom: 50px;
-    border-bottom: 2px solid #FFFFFF;
-    border-left: 5px solid #FFFFFF;
+    margin-left: 50px;
+    border-bottom: 2px solid #FFFFFF;
+    border-left: 5px solid #FFFFFF;
+    border-right: 0px;
 }
 
 div.blue {
@@ -62,6 +66,7 @@ div.blue {
     margin-right: 50px;
     border-right: 5px solid #FFFFFF;
     border-top: 2px solid #FFFFFF;
+    border-left: 0px;
 }
 
 div.blue > p, h2 {
@@ -74,6 +79,7 @@ div.yellow {
     margin-left: 50px;
     border-left: 5px solid #FFFFFF;
     border-bottom: 2px solid #FFFFFF;
+    border-right: 0px;
 }
 
 div.yellow > p {
@@ -90,16 +96,9 @@ div.green {
     margin-right: 50px;
     border-right: 5px solid #FFFFFF;
     border-top: 2px solid #FFFFFF;
-
+    border-left: 0px;
 }
 
-div.green > h2 {
-    color: #000000;
-}
-
-div.red > h2 {
-    color: #000000;
-}
 
 footer {
     font-size: 20px;
