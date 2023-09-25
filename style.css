@@ -52,7 +52,7 @@ div.introduction {
 }
 
 div.red {
-    background-color: #FD0000;
+    background-color: #FF0000;
     text-align: right;
     margin-left: 50px;
     margin-right: 0px;
@@ -66,7 +66,7 @@ div.red {
 }
 
 div.blue {
-    background-color: #0000ff;
+    background-color: #0000FF;
     text-align: left;
     margin-right: 50px;
     margin-left: 0px;
@@ -84,7 +84,7 @@ div.blue > p, h2 {
 }
 
 div.yellow {
-    background-color: #FDFD00;
+    background-color: #FFFF00;
     text-align: right;
     margin-left: 50px;
     margin-right: 0px;
@@ -106,7 +106,7 @@ div.yellow > h2 {
 }
 
 div.green {
-    background-color: #008500;
+    background-color: #008000;
     text-align: left;
     margin-right: 50px;
     margin-left: 0px;
