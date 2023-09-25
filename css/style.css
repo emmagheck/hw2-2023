@@ -80,7 +80,7 @@ div.blue {
     border-right-width: 5px;
 }
 
-div.blue > p, h2 {
+.blue > p, .blue > h2 {
     color: #C4C4C4;
 }
 
@@ -101,9 +101,6 @@ div.yellow > p {
     color: #707070;
 }
 
-div.yellow > h2 {
-    color: #000000;
-}
 
 div.green {
     background-color: #008500;
